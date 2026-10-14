@@ -1,8 +1,41 @@
-button {
-    background-color: #ff0000;
-    color: #fff;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-img {
-    width: 600px;
+.logo-mario{
+    width: 200px;
+}
+
+button {
+    background-color: #c51111;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logo-luidi-mario{
+    height: 500px;
+    
+}
+
+.caixa-info-texto{
+
+   width: 40%;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+
 }
