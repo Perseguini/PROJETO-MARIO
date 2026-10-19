@@ -1,18 +1,21 @@
 /*
 
-Variavel: caixinha para guardar informações que serão utilizadas.
-
-Palavrinhas magicas para criar variaveis: 
-
-var - não é mais utilizado, pois tem problemas de escopo e hoisting.
-let - permite alterar o valor
-const - constante
-
+            Objetivo: quando clicar no botão, mostrar o formulario e a mascara.
+            1 - Qual botão clicar?
+            2 - Qual Formulario mostrar?    
+            3 - Qual mascara mostrar?
+            4 - Oque é "mostrar"?
+                -  Trazer o formulario da esquerda pra direita,
+                -  Centralizar o formatulario na tela,
+                -  Exibir a Mascara de fundo.
 */
 
-let sal = "1kg"
-console.log(sal)
+const formulario = document.querySelector(".formulario");
+const mascara = document.querySelector(".mascara-formulario");
 
-sal = "0.8kg"
+function mostrarForm() {
+    formulario.style.left = "50%";
+    formulario.style.transform = "translateX(-50%)";
+    mascara.style.visibility = "visible";
+}
 
-console.log(sal)
