@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Serviços Disponíveis</title>
+</head>
+
+
+<body>
+    <div class="cabecalho">
+        <img src="img/logo-header.png" alt="logo-cabecalho-mario">
+        <a href="index.html">Início</a>
+        <a onclick="mostrarForm()">Fale Conosco</a>
+    </div>
+
+    <div class="caixa-principal">
+        <div class="caixa-info-texto">
+            <img src="img/logo.png" alt="logo-site-mario-encanador" class="logo-mario">
+
+            <p>
+                🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧
+            </p>
+            <p>
+               Encanamentos e Tubulaçoes: Mario e Luigi são especialistas em consertar vazamentos, desentupir canos e instalar sistemas hidráulicos. Com suas habilidades únicas, eles garantem que sua casa ou empresa esteja sempre funcionando perfeitamente.
+            </p>
+
+            <button onclick="mostrarForm()">Entre em Contato</button>
+        </div>
+
+        <div>
+            <img src="img/mario.png" alt="imagem-mario-luidi" class="logo-luidi-mario">
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="img/video.mp4" autoplay loop muted></video>
+        <div class="mascara-video"></div>
+    </div>
+
+    <div class="caixa-link-whatsapp">
+        <a href="https://wa.me/5544984510428?text=Ol%C3%A1%2C%20gostaria%20de%20um%20Servi%C3%A7o!" target="_blank" class="link-whatsapp">
+            <img src="img/whatsapp.png" />
+        </a>
+    </div>
+
+    <form class="formulario">
+        <input placeholder="Seu Nome"/>
+        <input placeholder="Seu E-mail"/>
+        <textarea placeholder="Digite eu problema"></textarea>
+        <button>Pedir Orçamento</button>
+    </form>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+</body>
+<script src="scripts.js"></script>
+</html>
