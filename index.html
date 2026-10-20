@@ -49,11 +49,16 @@
         </a>
     </div>
 
-    <form class="formulario">
-        <input placeholder="Seu Nome"/>
-        <input placeholder="Seu E-mail"/>
-        <textarea placeholder="Digite eu problema"></textarea>
-        <button>Pedir Orçamento</button>
+    <form
+         class="formulario"
+         action="https://formcarry.com/s/PLVm7ROrmey"
+         method="POST"
+         enctype="multipart/form-data"
+     >
+        <input placeholder="Seu Nome" type="text" name="nome" />
+        <input placeholder="Seu E-mail" type="email" name="email" />
+        <textarea placeholder="Digite eu problema" name="problema"></textarea>
+        <button type="submit">Pedir Orçamento</button>
     </form>
 
     <div class="mascara-formulario" onclick="esconderForm()"></div>
