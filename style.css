@@ -46,6 +46,22 @@ body {
     height: 100vh;
 }
 
+.caixa-principal h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.caixa-principal h2 {
+    color: rgb(247, 34, 34);
+    font-size: 20px;
+  
+}
+
+.caixa-principal p {
+    color: rgb(159, 161, 160);
+    font-size: 15px;
+}
+
 .caixa-video {
     position: fixed;
     top: 0;
